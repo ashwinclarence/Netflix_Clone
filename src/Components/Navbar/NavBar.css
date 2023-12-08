@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -9,13 +9,96 @@
     background-color: transparent;
 }
 
-.logo{
+.logo {
     position: fixed;
     left: 20px;
     width: 80px;
 }
-.avatar{
+
+.navbar .navlink-left {
     position: fixed;
+    top: 20px;
+    left: 150px;
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar .navlink-left li {
+    float: left;
+    margin-left: 2rem;
+}
+
+.navbar .navlink-left li a {
+    text-decoration: none;
+
+}
+
+.navbar .navlink-right {
+    position: fixed;
+    right: 100px;
+    top: 20px;
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar .navlink-right li {
+    float: left;
+    margin-left: 2rem;
+}
+.navbar .navlink-right li a{
+    text-decoration: none;
+}
+.navbar .navlink-right input{
+    width: 150px;
+    max-width: 150px;
+    height: 25px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 20px;
+}
+::placeholder{
+    font-weight: 800;
+}
+.navbar .navlink-right button{
+    width: 20px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.fa-magnifying-glass{
+    color: #fff;
+    scale: 1.1;
+}
+.fa-bell{
+    scale: 1.3;
+}
+
+.avatar-drop-down{
+    position: fixed;
+    right: 15px;
+}
+
+.avatar {
+    position: absolute;
     right: 20px;
     width: 30px;
+    cursor: pointer;
 }
+
+.avatar-drop-down button{
+    width: 20px;
+    height: 30px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    transition: .3s ease-in-out;
+}
+.avatar-drop-down button:hover{
+    scale: 1.3;
+}
+
