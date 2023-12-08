@@ -16,7 +16,6 @@ function Banner() {
       <div className="container">
         <h1 className="title">{movie?movie.title:""}</h1>
         <h1 className="title">{movie?movie.name:""}</h1>
-        {console.log(movie)}
         <div className="banner_buttons">
             <button className='button'><i class="fa-solid fa-play"></i> play</button>
             <button className='button'><i class="fa-solid fa-plus"></i> my list</button>

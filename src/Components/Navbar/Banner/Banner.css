@@ -1,12 +1,14 @@
 .banner{
     background-size: cover;
-    height: 448px;
+    height: 548px;
     color: #fff;
 }
+
 .container{
-    padding-top: 140px;
-    height: 190px;
-    padding-left: 15px;
+    padding-top: 260px;
+    height: 180px;
+    padding-left: 35px;
+
 
 }
 .title{
